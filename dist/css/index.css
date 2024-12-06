@@ -171,6 +171,7 @@ a {
   background-color: var(--clr-light-100);
   color: var(--clr-neutral-500);
   padding: 0.65em 4em;
+  justify-self: center;
 }
 
 .l-container {
