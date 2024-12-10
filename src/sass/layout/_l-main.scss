@@ -5,7 +5,16 @@
   flex-direction: column;
 
   &__intro {
+    display: grid;
     text-align: center;
+    min-height: 100vh;
+  }
+
+  &__slider {
+    background-image: url("/src/image/01.webp");
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
   }
 
   &__about,
@@ -68,6 +77,10 @@
     overflow-wrap: break-word;
     text-align: justify;
   }
+}
+
+.align-center {
+  align-self: center;
 }
 
 .c-button {

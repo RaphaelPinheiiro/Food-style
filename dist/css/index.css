@@ -26,6 +26,10 @@ button {
   padding: 0;
 }
 
+textarea {
+  resize: vertical;
+}
+
 body {
   background-color: var(--clr-neutral-500);
   min-height: 100vh;
@@ -233,7 +237,15 @@ a {
   flex-direction: column;
 }
 .l-main__intro {
+  display: grid;
   text-align: center;
+  min-height: 100vh;
+}
+.l-main__slider {
+  background-image: url("/src/image/01.webp");
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
 }
 .l-main__about, .l-main__profile {
   display: grid;
@@ -279,6 +291,10 @@ a {
   hyphens: auto;
   overflow-wrap: break-word;
   text-align: justify;
+}
+
+.align-center {
+  align-self: center;
 }
 
 .c-button {
